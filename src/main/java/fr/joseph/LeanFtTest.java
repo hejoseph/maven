@@ -22,7 +22,7 @@ public class LeanFtTest extends UnitTestClassBase {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
         instance = new LeanFtTest();
-        globalSetup(LeanFtTest.class);
+        globalSetup(LeanFtTest.class);//ss
     }
 
     @AfterClass
